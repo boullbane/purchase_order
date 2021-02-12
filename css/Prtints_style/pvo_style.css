@@ -1,0 +1,111 @@
+*,
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat";
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 10px
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    background: #EEE
+}
+
+.container .preview {
+    position: relative;
+    background: #fff;
+    width: 595px;
+    height: 842px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    /*border: 1px solid red*/
+}
+
+.container .preview .header {
+    position: relative;
+    width: 100%;
+    height: 280px;
+}
+
+.container .preview .header .title {
+    text-align: center;
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    margin-bottom: 30px
+}
+
+.container .preview .header .title img {
+    width: 100px;
+    height: 120px;
+    margin-top: 10px
+}
+
+.container .preview .header p {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.container .preview .header p:first-of-type {
+    font-size: 1.3rem;
+    margin-bottom: 15px
+}
+
+.container .preview .main p {
+    font-size: 13px;
+    margin-bottom: 10px
+}
+
+.container .preview .main ul {
+    padding-left: 40px;
+    font-size: 12px
+}
+
+.container .preview .main ul li {
+    margin-bottom: 8px
+}
+
+.container .preview .main ul li span {
+    margin-left: 50px
+}
+
+.container .preview .main table {
+    margin-top: 25px;
+    display: block;
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 12px;
+}
+
+.container .preview .main tr,
+td,
+th {
+    border: 2px solid #555;
+    padding: 5px
+}
+
+.container .preview .main td {
+    width: 10%;
+}
+
+.container .preview .main p:last-of-type {
+    margin-top: 25px
+}
+
+.container .preview .main h3 {
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.container .preview .main>span {
+    width: 32.8%;
+    display: inline-block;
+    font-size: 13px;
+}

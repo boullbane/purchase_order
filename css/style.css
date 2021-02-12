@@ -1,0 +1,74 @@
+*, html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat";
+}
+* .container, html .container, body .container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+* .container .left-side, html .container .left-side, body .container .left-side {
+  width: 20%;
+  height: 100%;
+  float: left;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+}
+* .container .left-side .logo, html .container .left-side .logo, body .container .left-side .logo {
+  width: 100%;
+  height: 180px;
+  padding-top: 3%;
+}
+* .container .left-side .logo img, html .container .left-side .logo img, body .container .left-side .logo img {
+  width: 50%;
+  height: 90%;
+}
+* .container .left-side nav ul, html .container .left-side nav ul, body .container .left-side nav ul {
+  list-style: none;
+}
+* .container .left-side nav ul li, html .container .left-side nav ul li, body .container .left-side nav ul li {
+  cursor: pointer;
+  margin-bottom: 10px;
+  padding: 10px 2%;
+  transition: all .9s ease-out;
+}
+* .container .left-side nav ul li:hover, html .container .left-side nav ul li:hover, body .container .left-side nav ul li:hover {
+  background-color: #1b6ca8;
+}
+* .container .left-side nav ul li:hover a, html .container .left-side nav ul li:hover a, body .container .left-side nav ul li:hover a {
+  color: #09253a;
+}
+* .container .left-side nav ul li:last-child, html .container .left-side nav ul li:last-child, body .container .left-side nav ul li:last-child {
+  background-color: red;
+}
+* .container .left-side nav ul li:last-child:hover, html .container .left-side nav ul li:last-child:hover, body .container .left-side nav ul li:last-child:hover {
+  background-color: #cc0000;
+}
+* .container .left-side nav ul li:last-child:hover a, html .container .left-side nav ul li:last-child:hover a, body .container .left-side nav ul li:last-child:hover a {
+  color: maroon;
+}
+* .container .left-side nav ul li a, html .container .left-side nav ul li a, body .container .left-side nav ul li a {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+}
+* .container .left-side nav ul li a span, html .container .left-side nav ul li a span, body .container .left-side nav ul li a span {
+  margin-left: 10px;
+}
+* .container .right-side, html .container .right-side, body .container .right-side {
+  width: 80%;
+  height: 100%;
+  float: right;
+  overflow: scroll;
+  padding: 15px;
+}
+* .active, html .active, body .active {
+  background-color: #1b6ca8;
+}
+
+/*# sourceMappingURL=style.css.map */

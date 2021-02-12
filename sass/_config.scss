@@ -1,0 +1,9 @@
+$primary-color : #1b6ca8;
+
+@mixin easeOut {
+  transition: all .9s ease-out;
+}
+
+@mixin activeLi {
+	background-color: $primary-color;
+}

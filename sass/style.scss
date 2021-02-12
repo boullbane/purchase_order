@@ -1,0 +1,85 @@
+@import "config";
+*, html, body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font:{
+		family:"Montserrat";
+	}
+	.container {
+		position: relative;
+		width: 100%;
+		height: 100vh;
+		margin: 0;
+		padding: 0;
+
+
+	.left-side {
+		width: 20%;
+		height: 100%;
+		float: left;
+		color: #fff;
+		font:{
+			size: 18px;
+			weight:bold;
+		}
+		.logo {
+			width: 100%;
+			height: 180px;
+			padding-top: 3%;
+			img{
+				width: 50%;
+				height: 90%;
+			}
+		}
+		nav {
+			
+			ul{
+				list-style: none;
+				li{
+					cursor: pointer;
+					margin-bottom: 10px;
+					padding: 10px 2%;
+					@include easeOut;
+					&:hover{
+						background-color: $primary-color;
+						a {
+						color: darken($primary-color, 25%);							
+						}
+					}
+					&:last-child{
+						background-color: red;
+						&:hover{
+						background-color: darken(red, 10%);
+						a {
+						color: darken(red, 25%);					
+						}
+					}
+					}
+
+					a{	display: block;
+						text-decoration: none;
+						color: #fff;
+						span {
+						margin-left: 10px;
+						}
+					}
+				}
+			}
+		}
+	}
+	.right-side {
+		width: 80%;
+		height: 100%;
+		float: right;
+		overflow: scroll;
+		padding: 15px
+	}
+
+}
+// framework
+.active {
+	@include activeLi;
+}
+
+}
